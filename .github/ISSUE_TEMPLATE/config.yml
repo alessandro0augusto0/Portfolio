@@ -1,0 +1,5 @@
+blank_issues_enabled: false   # Impede issues sem template
+contact_links:
+  - name: 📧 Email Profissional
+    url: mailto:alessandro.oliveira@alunos.ifsuldeminas.edu.br
+    about: Contato para assuntos urgentes
