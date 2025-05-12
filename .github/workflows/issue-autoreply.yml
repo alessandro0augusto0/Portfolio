@@ -1,0 +1,19 @@
+name: Auto-Reply to New Issues
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  autoreply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post welcome comment
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "🎉 Obrigado por reportar, @${{ github.actor }}! \n\nAnalisarei sua issue dentro de 48h. \n\nEnquanto isso, verifique se:\n- O problema persiste na versão mais recente\n- Adicionou screenshots (se aplicável)\n\n📌 _Essa mensagem é automática_"
+            })
