@@ -17,13 +17,13 @@ const translations = {
     'hero.title': 'Alessandro Augusto',
     'hero.role1': 'Desenvolvedor Full Stack',
     'hero.role2': 'Estudante de Engenharia de Computação',
-    'hero.role3': 'Membro da EJ Turing',
+    'hero.role3': 'Desenvolvimento de Sistemas em PHP',
     'hero.cta': 'Ver Projetos',
     'hero.scroll': 'Role para explorar',
-    
+
     'about.title': 'Sobre Mim',
-    'about.description': 'Estudante de Engenharia de Computação no IFSULDEMINAS, apaixonado por desenvolvimento de software e inovação tecnológica. Atualmente, faço parte da EJ Turing, onde desenvolvo soluções web para diversos clientes.',
-    'about.journey': 'Minha jornada na tecnologia é movida pela busca constante de conhecimento e pela paixão em criar soluções que fazem a diferença.',
+    'about.description': 'Estudante de Engenharia de Computação no IFSULDEMINAS, com interesse em inteligência artificial, desenvolvimento web e engenharia de software. Busco desenvolver soluções bem estruturadas, escaláveis e de fácil manutenção, aplicando boas práticas de desenvolvimento e mantendo um processo constante de aprendizado.',
+    'about.journey': 'Valorizo a resolução de problemas, a organização do código e a construção de aplicações que entreguem valor e proporcionem uma boa experiência aos usuários.',
     'about.image_alt': 'Alessandro Augusto - Cartoon',
     'about.skills.frontend': 'Frontend',
     'about.skills.backend': 'Backend',
@@ -40,7 +40,7 @@ const translations = {
     'about.timeline.ejturing_desc': 'Ingresso na Empresa Júnior como desenvolvedor',
     'about.timeline.freelance': 'Freelancer',
     'about.timeline.freelance_desc': 'Início dos trabalhos como desenvolvedor freelancer',
-    
+
     'projects.title': 'Projetos',
     'projects.subtitle': 'Alguns dos projetos que desenvolvi durante minha jornada',
     'projects.academic': 'Projetos Acadêmicos',
@@ -79,7 +79,7 @@ const translations = {
     'projects.pon_sim.impact': 'React, TypeScript e Tailwind CSS',
     'projects.current_category': 'Visualizando:',
     'projects.click_to_filter': 'Clique para filtrar',
-    
+
     'contact.title': 'Contato',
     'contact.subtitle': 'Vamos conversar sobre seu próximo projeto?',
     'contact.info': 'Informações de Contato',
@@ -105,7 +105,7 @@ const translations = {
     'hero.role3': 'EJ Turing Member',
     'hero.cta': 'View Projects',
     'hero.scroll': 'Scroll to explore',
-    
+
     'about.title': 'About Me',
     'about.description': 'Computer Engineering student at IFSULDEMINAS, passionate about software development and technological innovation. Currently, I am part of EJ Turing, where I develop web solutions for various clients.',
     'about.journey': 'My journey in technology is driven by the constant pursuit of knowledge and the passion for creating solutions that make a difference.',
@@ -125,7 +125,7 @@ const translations = {
     'about.timeline.ejturing_desc': 'Joined the Junior Enterprise as a developer',
     'about.timeline.freelance': 'Freelancer',
     'about.timeline.freelance_desc': 'Started working as a freelance developer',
-    
+
     'projects.title': 'Projects',
     'projects.subtitle': 'Some of the projects I developed during my journey',
     'projects.academic': 'Academic Projects',
@@ -164,7 +164,7 @@ const translations = {
     'projects.pon_sim.impact': 'React, TypeScript and Tailwind CSS',
     'projects.current_category': 'Viewing:',
     'projects.click_to_filter': 'Click to filter',
-    
+
     'contact.title': 'Contact',
     'contact.subtitle': 'Let\'s talk about your next project?',
     'contact.info': 'Contact Information',
