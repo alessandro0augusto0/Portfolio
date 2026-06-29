@@ -13,10 +13,10 @@ const About = () => {
   });
 
   const skills = [
-    { name: t('about.skills.frontend'), icon: <Globe className="w-6 h-6" />, items: ['HTML', 'CSS', 'JavaScript', 'TypeScript'] },
-    { name: t('about.skills.backend'), icon: <Server className="w-6 h-6" />, items: ['PHP', 'Java', 'SQL', 'Laravel'] },
-    { name: t('about.skills.database'), icon: <Database className="w-6 h-6" />, items: ['MySQL', 'PostgreSQL'] },
-    { name: t('about.skills.others'), icon: <Code2 className="w-6 h-6" />, items: ['Git', 'Docker', 'Linux', 'AWS'] },
+    { name: t('about.skills.frontend'), icon: <Globe className="w-6 h-6" />, items: ['HTML', 'CSS', 'JavaScript'] },
+    { name: t('about.skills.backend'), icon: <Server className="w-6 h-6" />, items: ['PHP', 'Java', 'SQL'] },
+    { name: t('about.skills.database'), icon: <Database className="w-6 h-6" />, items: ['MySQL', 'SQL Server', 'PostgreSQL'] },
+    { name: t('about.skills.others'), icon: <Code2 className="w-6 h-6" />, items: ['Git', 'Docker', 'Dbeaver'] },
   ];
 
   const metrics = [
@@ -33,14 +33,29 @@ const About = () => {
       description: t('about.timeline.university_desc'),
     },
     {
+      year: '2023',
+      title: t('about.timeline.cdpc'),
+      description: t('about.timeline.cdpc_desc'),
+    },
+    {
+      year: '2025',
+      title: t('about.timeline.internship'),
+      description: t('about.timeline.internship_desc'),
+    },
+    {
       year: '2025',
       title: t('about.timeline.ejturing'),
       description: t('about.timeline.ejturing_desc'),
     },
     {
       year: '2025',
-      title: t('about.timeline.freelance'),
-      description: t('about.timeline.freelance_desc'),
+      title: t('about.timeline.monitor_calc'),
+      description: t('about.timeline.monitor_calc_desc'),
+    },
+    {
+      year: '2026',
+      title: t('about.timeline.monitor_prog'),
+      description: t('about.timeline.monitor_prog_desc'),
     },
   ];
 
