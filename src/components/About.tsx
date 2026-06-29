@@ -13,9 +13,9 @@ const About = () => {
   });
 
   const skills = [
-    { name: t('about.skills.frontend'), icon: <Globe className="w-6 h-6" />, items: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js'] },
-    { name: t('about.skills.backend'), icon: <Server className="w-6 h-6" />, items: ['Node.js', 'Express', 'PHP', 'Laravel'] },
-    { name: t('about.skills.database'), icon: <Database className="w-6 h-6" />, items: ['MySQL', 'PostgreSQL', 'MongoDB', 'Redis'] },
+    { name: t('about.skills.frontend'), icon: <Globe className="w-6 h-6" />, items: ['HTML', 'CSS', 'JavaScript', 'TypeScript'] },
+    { name: t('about.skills.backend'), icon: <Server className="w-6 h-6" />, items: ['PHP', 'Java', 'SQL', 'Laravel'] },
+    { name: t('about.skills.database'), icon: <Database className="w-6 h-6" />, items: ['MySQL', 'PostgreSQL'] },
     { name: t('about.skills.others'), icon: <Code2 className="w-6 h-6" />, items: ['Git', 'Docker', 'Linux', 'AWS'] },
   ];
 
@@ -130,7 +130,7 @@ const About = () => {
               ))}
             </div>
           </motion.div>
-          
+
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
@@ -153,7 +153,7 @@ const About = () => {
                 src={cartoonImage}
                 alt={t('about.image_alt')}
                 className="relative z-10 w-full h-auto rounded-lg shadow-xl bg-transparent"
-                style={{ 
+                style={{
                   mixBlendMode: 'multiply',
                   filter: 'drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1))'
                 }}

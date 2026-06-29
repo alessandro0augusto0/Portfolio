@@ -28,7 +28,7 @@ const translations = {
     'about.skills.frontend': 'Frontend',
     'about.skills.backend': 'Backend',
     'about.skills.database': 'Banco de Dados',
-    'about.skills.others': 'Outros',
+    'about.skills.others': 'Ferramentas',
     'about.metrics.projects': 'Projetos Concluídos',
     'about.metrics.technologies': 'Tecnologias Dominadas',
     'about.metrics.clients': 'Clientes Atendidos',
