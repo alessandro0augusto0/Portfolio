@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import { ChevronDown } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
-import profileImage from '../assets/profile.jpg'; // Adicionada esta linha
+import profileImage from '../assets/profile.jpeg'; // Adicionada esta linha
 
 const Hero = () => {
   const { t } = useLanguage();
