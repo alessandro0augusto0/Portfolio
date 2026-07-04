@@ -115,6 +115,9 @@ const translations = {
     'projects.pon_sim.title': 'Simulador PON',
     'projects.pon_sim.description': 'Simulador web interativo de redes PON com animações de fluxo de dados, parâmetros configuráveis e métricas em tempo real.',
     'projects.pon_sim.impact': 'React, TypeScript e Tailwind CSS',
+    'projects.fortnite.title': 'Fortnite Cosmetics Store',
+    'projects.fortnite.description': 'Aplicação full-stack (NestJS + React) que sincroniza o catálogo do Fortnite via API e simula compras de cosméticos usando V-Bucks, com infraestrutura Docker.',
+    'projects.fortnite.impact': 'Projeto Full Stack com NestJS, React e Prisma',
     'projects.current_category': 'Visualizando:',
     'projects.click_to_filter': 'Clique para filtrar',
 
@@ -238,6 +241,9 @@ const translations = {
     'projects.pon_sim.title': 'PON Simulator',
     'projects.pon_sim.description': 'Interactive web simulator for PON networks with data flow animations, configurable parameters and real-time metrics.',
     'projects.pon_sim.impact': 'React, TypeScript and Tailwind CSS',
+    'projects.fortnite.title': 'Fortnite Cosmetics Store',
+    'projects.fortnite.description': 'Full-stack application (NestJS + React) that syncs the Fortnite catalog via API and simulates cosmetic purchases using V-Bucks, with Docker infrastructure.',
+    'projects.fortnite.impact': 'Full Stack Project with NestJS, React and Prisma',
     'projects.current_category': 'Viewing:',
     'projects.click_to_filter': 'Click to filter',
 
