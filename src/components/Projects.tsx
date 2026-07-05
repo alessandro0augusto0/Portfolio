@@ -510,7 +510,7 @@ const Projects = () => {
                 onClick={prevSlide}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-4 z-10 bg-white dark:bg-gray-800 p-3 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300"
+                className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white dark:bg-gray-800 p-2 sm:p-3 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300 -ml-2 sm:ml-0"
               >
                 <ChevronLeft className="w-6 h-6 text-gray-600 dark:text-gray-300" />
               </motion.button>
@@ -519,7 +519,7 @@ const Projects = () => {
                 onClick={nextSlide}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-4 z-10 bg-white dark:bg-gray-800 p-3 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300"
+                className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white dark:bg-gray-800 p-2 sm:p-3 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300 -mr-2 sm:mr-0"
               >
                 <ChevronRight className="w-6 h-6 text-gray-600 dark:text-gray-300" />
               </motion.button>
@@ -527,7 +527,7 @@ const Projects = () => {
           )}
 
           {/* Projects Grid */}
-          <div className="overflow-hidden">
+          <div className="overflow-hidden px-8 sm:px-14">
             <AnimatePresence mode="wait">
               <motion.div
                 key={`${selectedCategory}-${currentIndex}`}
