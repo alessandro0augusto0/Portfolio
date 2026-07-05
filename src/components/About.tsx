@@ -163,15 +163,10 @@ const About = () => {
               } : {}}
               className="relative w-full max-w-md mx-auto"
             >
-              <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-blue-50/20 to-purple-50/20 dark:from-blue-900/10 dark:to-purple-900/10 transform rotate-3" />
               <img
                 src={cartoonImage}
                 alt={t('about.image_alt')}
-                className="relative z-10 w-full h-auto rounded-lg shadow-xl bg-transparent"
-                style={{
-                  mixBlendMode: 'multiply',
-                  filter: 'drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1))'
-                }}
+                className="relative z-10 w-full h-auto bg-transparent drop-shadow-2xl"
               />
             </motion.div>
           </motion.div>
