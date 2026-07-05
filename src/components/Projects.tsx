@@ -223,6 +223,26 @@ const Projects = () => {
       status: 'completed',
       impact: t('projects.fortnite.impact'),
     },
+    {
+      title: t('projects.hobbit.title'),
+      description: t('projects.hobbit.description'),
+      image: '/projetos/the_hobbit_css.png',
+      tags: ['CSS', 'JavaScript', 'HTML'],
+      github: 'https://github.com/alessandro0augusto0/the-hobbit-css',
+      demo: '#',
+      status: 'completed',
+      impact: t('projects.hobbit.impact'),
+    },
+    {
+      title: t('projects.mario.title'),
+      description: t('projects.mario.description'),
+      image: '/projetos/super_mario_js.png',
+      tags: ['JavaScript', 'CSS', 'HTML'],
+      github: 'https://github.com/alessandro0augusto0/super-mario-js',
+      demo: '#',
+      status: 'completed',
+      impact: t('projects.mario.impact'),
+    },
   ];
 
   const getFilteredProjects = () => {
@@ -446,7 +466,7 @@ const Projects = () => {
             whileTap={{ scale: 0.95 }}
             className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 ${
               selectedCategory === 'all'
-                ? 'bg-primary-dark text-white shadow-lg'
+                ? 'bg-gray-900 text-white dark:bg-gray-100 dark:text-gray-900 shadow-lg'
                 : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-600'
             }`}
           >
