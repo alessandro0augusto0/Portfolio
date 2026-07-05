@@ -6,7 +6,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 import profileImage from '../assets/profile.jpeg'; // Adicionada esta linha
 
 const Hero = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -79,6 +79,7 @@ const Hero = () => {
           className="mb-8"
         >
           <TypeAnimation
+            key={language}
             sequence={[
               t('hero.role1'),
               2000,
