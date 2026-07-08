@@ -153,7 +153,7 @@ const Projects = () => {
     {
       title: t('projects.wine.title'),
       description: t('projects.wine.description'),
-      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      image: '/projetos/wine_quality.png',
       tags: ['Python'],
       github: 'https://github.com/alessandro0augusto0/wine-quality-prediction-project',
       demo: '#',
@@ -163,7 +163,7 @@ const Projects = () => {
     {
       title: t('projects.todo.title'),
       description: t('projects.todo.description'),
-      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      image: '/projetos/todo_list.png',
       tags: ['JavaScript'],
       github: 'https://github.com/alessandro0augusto0/To-Do-List',
       demo: '#',
@@ -183,7 +183,7 @@ const Projects = () => {
     {
       title: t('projects.pon_calc.title'),
       description: t('projects.pon_calc.description'),
-      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      image: '/projetos/pon_calculator.png',
       tags: ['Python'],
       github: 'https://github.com/alessandro0augusto0/Calculadora-PON',
       demo: '#',
@@ -193,6 +193,16 @@ const Projects = () => {
   ];
 
   const personalProjects = [
+    {
+      title: t('projects.fortnite.title'),
+      description: t('projects.fortnite.description'),
+      image: '/projetos/fortnite_store.png',
+      tags: ['TypeScript', 'PowerShell', 'JavaScript'],
+      github: 'https://github.com/alessandro0augusto0/fortnite-cosmetics-store',
+      demo: '#',
+      status: 'completed',
+      impact: t('projects.fortnite.impact'),
+    },
     {
       title: t('projects.proposal.title'),
       description: t('projects.proposal.description'),
@@ -206,22 +216,12 @@ const Projects = () => {
     {
       title: t('projects.pon_sim.title'),
       description: t('projects.pon_sim.description'),
-      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      image: '/projetos/pon_simulator.png',
       tags: ['TypeScript', 'JavaScript'],
       github: 'https://github.com/alessandro0augusto0/pon-simulator',
       demo: '#',
       status: 'completed',
       impact: t('projects.pon_sim.impact'),
-    },
-    {
-      title: t('projects.fortnite.title'),
-      description: t('projects.fortnite.description'),
-      image: '/projetos/fortnite_store.png',
-      tags: ['TypeScript', 'PowerShell', 'JavaScript'],
-      github: 'https://github.com/alessandro0augusto0/fortnite-cosmetics-store',
-      demo: '#',
-      status: 'completed',
-      impact: t('projects.fortnite.impact'),
     },
     {
       title: t('projects.hobbit.title'),

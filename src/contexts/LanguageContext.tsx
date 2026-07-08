@@ -57,7 +57,7 @@ const translations = {
     'projects.arcane.title': 'Arcane Scriptorium',
     'projects.arcane.description': 'Sistema de controle de concorrência inspirado em uma biblioteca arcana (Leitores-Escritores), utilizando travas e prevenção de inanição.',
     'projects.arcane.impact': 'Trabalho de Sistemas Operacionais',
-    
+
     'projects.tictactoe_ia.title': 'Jogo da Velha com IA',
     'projects.tictactoe_ia.description': 'Implementação do Jogo da Velha com IA usando o algoritmo MiniMax + Alpha-Beta e heurísticas em interface gráfica.',
     'projects.tictactoe_ia.impact': 'Desenvolvido em Java com Swing',
@@ -110,7 +110,7 @@ const translations = {
     'projects.pon_calc.description': 'Aplicativo desktop para dimensionamento de redes ópticas passivas com cálculos de orçamento de potência e geração de relatórios.',
     'projects.pon_calc.impact': 'Python com PyQt5 e Matplotlib',
     'projects.proposal.title': 'Um Pedido Especial',
-    'projects.proposal.description': 'Proposta de casamento digital interativa com coração pulsante, botão "Não" evasivo, confetes e mensagens românticas.',
+    'projects.proposal.description': 'Proposta de namoro digital interativa com coração pulsante, botão "Não" evasivo, confetes e mensagens românticas.',
     'projects.proposal.impact': 'HTML5, CSS3, JavaScript e Canvas Confetti',
     'projects.pon_sim.title': 'Simulador PON',
     'projects.pon_sim.description': 'Simulador web interativo de redes PON com animações de fluxo de dados, parâmetros configuráveis e métricas em tempo real.',
@@ -189,7 +189,7 @@ const translations = {
     'projects.arcane.title': 'Arcane Scriptorium',
     'projects.arcane.description': 'Concurrency control system inspired by an arcane library (Readers-Writers), using locks and preventing starvation.',
     'projects.arcane.impact': 'Operating Systems Assignment',
-    
+
     'projects.tictactoe_ia.title': 'Tic-Tac-Toe with AI',
     'projects.tictactoe_ia.description': 'Implementation of Tic-Tac-Toe with AI using the MiniMax + Alpha-Beta algorithm and heuristics in a GUI.',
     'projects.tictactoe_ia.impact': 'Developed in Java with Swing',
