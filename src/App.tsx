@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { TypeAnimation } from 'react-type-animation';
 import { Github, Linkedin, Instagram, Moon, Sun } from 'lucide-react';
 import Hero from './components/Hero';
 import About from './components/About';

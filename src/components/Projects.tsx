@@ -350,7 +350,17 @@ const Projects = () => {
     })
   };
 
-  const ProjectCard = ({ project, index }: { project: any, index: number }) => (
+  interface ProjectItem {
+    title: string;
+    description: string;
+    image: string;
+    tags: string[];
+    github?: string;
+    demo?: string;
+    status?: string;
+  }
+
+  const ProjectCard = ({ project, index }: { project: ProjectItem; index: number }) => (
     <motion.div
       variants={itemVariants}
       whileHover={{ y: -10 }}

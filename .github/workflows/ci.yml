@@ -1,0 +1,31 @@
+name: CI - Verificação de Qualidade & Build
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate:
+    name: Lint & Build Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 📦 Instalar Dependências
+        run: npm ci
+
+      - name: 🔍 Verificação de Lint (ESLint)
+        run: npm run lint
+
+      - name: 🏗️ Teste de Build (Vite + TypeScript)
+        run: npm run build
