@@ -41,6 +41,26 @@ const Projects = () => {
 
   const academicProjects = [
     {
+      title: t('projects.strata_chat.title'),
+      description: t('projects.strata_chat.description'),
+      image: '/projetos/strata_chat.png',
+      tags: ['TypeScript', 'Python', 'JavaScript', 'CSS'],
+      github: 'https://github.com/alessandro0augusto0/strata-distributed-chat',
+      demo: '#',
+      status: 'completed',
+      impact: t('projects.strata_chat.impact'),
+    },
+    {
+      title: t('projects.es_crud.title'),
+      description: t('projects.es_crud.description'),
+      image: '/projetos/es_crud.png',
+      tags: ['TypeScript', 'Java'],
+      github: 'https://github.com/alessandro0augusto0/projeto-engenharia-de-software1',
+      demo: '#',
+      status: 'completed',
+      impact: t('projects.es_crud.impact'),
+    },
+    {
       title: t('projects.arcane.title'),
       description: t('projects.arcane.description'),
       image: '/projetos/arcane_scriptorium.png',
@@ -464,11 +484,10 @@ const Projects = () => {
             onClick={() => handleCategoryChange('all')}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 ${
-              selectedCategory === 'all'
+            className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 ${selectedCategory === 'all'
                 ? 'bg-gray-900 text-white dark:bg-gray-100 dark:text-gray-900 shadow-lg'
                 : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-600'
-            }`}
+              }`}
           >
             Todos os Projetos
           </motion.button>
@@ -477,11 +496,10 @@ const Projects = () => {
             onClick={() => handleCategoryChange('academic')}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 ${
-              selectedCategory === 'academic'
+            className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 ${selectedCategory === 'academic'
                 ? 'bg-primary-dark text-white shadow-lg'
                 : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-600'
-            }`}
+              }`}
           >
             {t('projects.academic')}
           </motion.button>
@@ -490,11 +508,10 @@ const Projects = () => {
             onClick={() => handleCategoryChange('personal')}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 ${
-              selectedCategory === 'personal'
+            className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 ${selectedCategory === 'personal'
                 ? 'bg-secondary-dark dark:bg-secondary-light text-white shadow-lg'
                 : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-600'
-            }`}
+              }`}
           >
             {t('projects.personal')}
           </motion.button>
@@ -582,11 +599,10 @@ const Projects = () => {
                   onClick={() => setCurrentIndex(index)}
                   whileHover={{ scale: 1.2 }}
                   whileTap={{ scale: 0.8 }}
-                  className={`w-3 h-3 rounded-full transition-colors duration-300 ${
-                    index === currentIndex
+                  className={`w-3 h-3 rounded-full transition-colors duration-300 ${index === currentIndex
                       ? 'bg-primary-dark dark:bg-primary-light'
                       : 'bg-gray-300 dark:bg-gray-600'
-                  }`}
+                    }`}
                 />
               ))}
             </motion.div>
@@ -607,7 +623,7 @@ const Projects = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.2 }}
           >
-            {filteredProjects.length} {filteredProjects.length === 1 ? 'projeto' : 'projetos'} 
+            {filteredProjects.length} {filteredProjects.length === 1 ? 'projeto' : 'projetos'}
             {selectedCategory !== 'all' && ` em ${getCurrentCategoryName()}`}
           </motion.p>
         </motion.div>
